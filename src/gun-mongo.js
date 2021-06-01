@@ -1,4 +1,4 @@
-const {NodeAdapter} = require('gun-flint');
+const {NodeAdapter} = require('@gooddollarcommons/gun-flint');
 const Mongojs = require('mongojs');
 
 module.exports = new NodeAdapter({
